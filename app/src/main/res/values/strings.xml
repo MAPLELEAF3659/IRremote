@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">IRremote</string>
+    <string name="history">歷史紀錄</string>
+    <string name="remote">遙控</string>
+    <string name="settings">設定</string>
+    <string name="internet_connection">網路連線</string>
+    <string name="bluetooth_connection">藍牙連線</string>
+    <string name="choose_remote_button">選擇遙控按鍵"     "</string>
+    <string name="transmit">發送</string>
+    <string name="edit">編輯</string>
+    <string name="alarm">定時</string>
+    <string name="add">新增</string>
+    <string name="input_button_name">輸入按鍵名稱</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alarm_info">定時列表</string>
+    <string name="alarm_info_list">定時發送列表</string>
+    <string name="pickup_time">選擇時間</string>
+    <string name="input_alarm_name">輸入定時發送名稱</string>
+    <string name="filter">篩選器</string>
+    <string name="history_sort">名稱"                          "日期"               "時間"                     "模式</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

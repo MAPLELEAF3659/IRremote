@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemoteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/wifiStatusImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_wifi_off_black_24dp" />
+
+            <Button
+                android:id="@+id/wifibutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/internet_connection"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/bluetoothStatusImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_bluetooth_disabled_black_24dp" />
+
+            <Button
+                android:id="@+id/bluetoothButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bluetooth_connection"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chooseRemoteTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:text="@string/choose_remote_button"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Spinner
+                    android:id="@+id/remoteSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/sendButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="0"
+                    android:drawableStart="@drawable/baseline_rss_feed_black_24dp"
+                    android:text="@string/transmit"
+                    android:textSize="36sp" />
+
+                <Button
+                    android:id="@+id/addButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="0"
+                    android:drawableStart="@drawable/baseline_add_black_24dp"
+                    android:text="@string/add"
+                    android:textSize="36sp" />
+
+                <Button
+                    android:id="@+id/editButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="0"
+                    android:drawableStart="@drawable/baseline_create_black_24dp"
+                    android:text="@string/edit"
+                    android:textSize="36sp" />
+
+                <Button
+                    android:id="@+id/alarmButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="0"
+                    android:drawableStart="@drawable/baseline_alarm_black_24dp"
+                    android:text="@string/alarm"
+                    android:textSize="36sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

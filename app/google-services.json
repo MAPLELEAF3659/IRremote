@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "664822073384",
+    "firebase_url": "https://irremote0.firebaseio.com",
+    "project_id": "irremote0",
+    "storage_bucket": "irremote0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664822073384:android:beec9aef85a1fa91",
+        "android_client_info": {
+          "package_name": "com.mapleleaf.irremote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664822073384-n87la15tkm0mj1fpd28lf7r79g0ntdi6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapleleaf.irremote",
+            "certificate_hash": "52287d9cdbe8a3e7874d5d305a68efa7d8ab6d98"
+          }
+        },
+        {
+          "client_id": "664822073384-k33vesq38v24f4181lpfu41t41c3vc9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5i9WFAihQH8Vd20vxa6ObqLnwusplaH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664822073384-k33vesq38v24f4181lpfu41t41c3vc9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
